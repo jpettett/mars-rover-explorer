@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica;
+}
+
+input {
+  border: 2px solid rgb(122, 115, 115);
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+button {
+  font-size: 12px;
+  border: 2px solid rgb(122, 115, 115);
+  border-radius: 4px;
+  margin-left: 3px;
+}
+
+form {
+  display: inline-block;
+}
+
+.links {
+  font-family: 'Courier New';
+  font-weight: 500;
+  color: white;
+  display: inline-flex;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-size: large;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: rgb(201, 144, 31);
+}
+
+.navBar {
+  background-color: rgb(37, 37, 37);
+  border-bottom: 2px solid rgba(245, 245, 245, 0.5);
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+.mars {
+  color: rgb(121, 31, 31);
+}
+
+.rover {
+  float: right;
+  border-radius: 50%;
+}

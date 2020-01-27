@@ -9,32 +9,28 @@ import './App.css';
 function App() {
   return (
     <div>
-      <header className="header">
-        <h1>Mars Rover Explorer</h1>
-      </header>
-      <div>
+      <nav className="navBar">
+        <h1>
+          <span className="mars">Mars </span> Rover Explorer
+        </h1>
         <Link className="links" to="/">
           Home
         </Link>
-        &nbsp;&nbsp;
         <Link className="links" to="/about">
           About
         </Link>
-        &nbsp;&nbsp;
         <Link className="links" to="/images">
           Images
         </Link>
-      </div>
-      <div>
         <SearchForm />
-        <main className="main">
-          <Switch>
-            <Route path="/images" component={Images} />
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-          </Switch>
-        </main>
-      </div>
+      </nav>
+      <main className="main">
+        <Switch>
+          <Route path="/images" component={Images} />
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+        </Switch>
+      </main>
     </div>
   );
 }
